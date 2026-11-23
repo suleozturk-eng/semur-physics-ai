@@ -1,5 +1,7 @@
 # ⚡ SEMUR — Autonomous Local Physics-AI Engineer
 
+[![Streamlit App](https://streamlit.io)](https://semur-physics-ai-cb3vf9ou4uahcvcpm7zv8m.streamlit.app/)
+
 **S**urrogate **E**ngineering **M**odel for **U**nified **R**easoning | *Zero-Cloud, Zero-Footprint Deterministic & ML Physics Engine*
 
 > 🌐 *[Türkçe dokümantasyon için aşağı kaydırın / Scroll down for Turkish documentation](#türkçe-dokümantasyon)*
@@ -26,15 +28,13 @@
 
 2. **Install required dependencies:**
    ```bash
-   pip install streamlit numpy matplotlib joblib scikit-learn
+   pip install -r requirements.txt
    ```
 
 3. **Run the application:**
-   * **Windows Users:** Double-click the `baslat.bat` file in the root directory to launch the app directly.
-   * **Manual Launch (Terminal):**
-     ```bash
-     streamlit run app.py
-     ```
+   ```bash
+   streamlit run app.py
+   ```
 
 ### 💬 Example Console Prompts
 * **Optimization Analysis:** *"3600 W ısı yükü altında sıcaklığı 44 °C altında tutacak en düşük hava hızını bul."* *(Find the lowest air velocity to keep temperature below 44 °C under 3600 W load.)*
@@ -62,15 +62,13 @@
 
 2. **Gerekli kütüphaneleri yükleyin:**
    ```bash
-   pip install streamlit numpy matplotlib joblib scikit-learn
+   pip install -r requirements.txt
    ```
 
 3. **Uygulamayı başlatın:**
-   * **Windows Kullanıcıları:** Klasör içindeki `baslat.bat` dosyasına çift tıklayarak uygulamayı doğrudan başlatabilirsiniz.
-   * **Manuel Başlatma (Terminal):**
-     ```bash
-     streamlit run app.py
-     ```
+   ```bash
+   streamlit run app.py
+   ```
 
 ### 💬 Örnek Konsol Komutları
 * **Optimizasyon Analizi:** *"3600 W ısı yükü altında sıcaklığı 44 °C altında tutacak en düşük hava hızını bul."*
